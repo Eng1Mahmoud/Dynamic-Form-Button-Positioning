@@ -25,6 +25,10 @@ function App() {
         }
       }
     }
+    else {
+      // if the input is not empty, move the button in original position
+      ref.current.style.left = null; // Move to the left
+    }
   };
 
   return (
